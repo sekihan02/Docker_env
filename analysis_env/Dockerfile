@@ -11,6 +11,20 @@ FROM nvidia/cuda:11.6.0-base-ubuntu20.04
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install -y \
+    bash \
+    coreutils \
+    grep \
+    iproute2 \
+    iputils-ping \
+    traceroute \
+    tcpdump \
+    bind9-dnsutils \
+    dnsmasq-base \
+    netcat-openbsd \
+    wget \
+    iptables \
+    procps \
+    isc-dhcp-client \
     git \
     curl \
     ca-certificates \
