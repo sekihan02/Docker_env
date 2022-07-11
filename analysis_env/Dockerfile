@@ -99,7 +99,8 @@ RUN pip3 install datasets
 # RUN pip3 install tensorflow-gpu==1.15
 RUN pip3 install tensorflow-gpu
 
-RUN pip3 install torch==1.10.2+cu113 torchvision==0.11.3+cu113 torchaudio==0.10.2+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
+# RUN pip3 install torch==1.10.2+cu113 torchvision==0.11.3+cu113 torchaudio==0.10.2+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
+RUN pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
 RUN pip3 install transformers
 RUN pip3 install timm
 
@@ -111,6 +112,8 @@ RUN pip3 install librosa==0.9.1
 
 RUN pip3 install colorednoise
 RUN pip3 install catboost
+
+RUN pip3 install cupy-cuda113
 # ワークスペースを元に戻す
 WORKDIR /
 
