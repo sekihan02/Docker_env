@@ -1,0 +1,372 @@
+arrow_right,anyhow1.0.65,,Direct,Apache-2.0 OR MIT,0
+1.0.65,"September 13, 2022",Flexible concrete Error type built on std::error::Error,https://github.com/dtolnay
+arrow_right,atty0.2.14,,Direct,MIT,5
+0.2.14,"January 5, 2020",A simple interface for querying atty,https://github.com/softprops
+arrow_right,bytesize1.1.0,,Direct,Apache-2.0,0
+1.1.0,"July 30, 2021",an utility for human-readable bytes representations,https://github.com/hyunsik
+arrow_right,cargo_platform0.1.2,,Direct,Apache-2.0 OR MIT,6
+0.1.2,"August 5, 2021",Cargo's representation of a target platform.,https://github.com/alexcrichtonhttps://github.com/ehusshttps://github.com/rust-langhttps://github.com/rust-lang-owner
+arrow_right,cargo_util0.2.1,,Direct,Apache-2.0 OR MIT,47
+0.2.1,"August 11, 2022",Miscellaneous support code used by Cargo.,https://github.com/ehusshttps://github.com/rust-langhttps://github.com/rust-lang-owner
+arrow_right,clap3.2.22,,Direct,Apache-2.0 OR MIT,16
+3.2.22,"September 16, 2022","A simple to use, efficient, and full-featured Command Line Argument Parser",https://github.com/clap-rshttps://github.com/kbknapphttps://github.com/rust-cli
+arrow_right,crates_io0.34.0,,Direct,Apache-2.0 OR MIT,42
+0.34.0,"April 7, 2022","Helpers for interacting with crates.io
+",https://github.com/alexcrichtonhttps://github.com/rust-langhttps://github.com/rust-lang-nurseryhttps://github.com/rust-lang-owner
+arrow_right,crossbeam_utils0.8.12,,Direct,Apache-2.0 OR MIT,1
+0.8.12,"September 29, 2022",Utilities for concurrent programming,https://github.com/Amanieuhttps://github.com/crossbeam-rshttps://github.com/jeehoonkanghttps://github.com/taiki-e
+arrow_right,curl0.4.44,,Direct,MIT,23
+0.4.44,"July 22, 2022",Rust bindings to libcurl for making HTTP requests,https://github.com/alexcrichtonhttps://github.com/sagebind
+arrow_right,curl_sys0.4.57+curl-7.85.0,,Direct,MIT,12
+0.4.57+curl-7.85.0,"September 5, 2022",Native bindings to the libcurl library,https://github.com/alexcrichtonhttps://github.com/sagebind
+arrow_right,env_logger0.9.1,,Direct,Apache-2.0 OR MIT,15
+0.9.1,"September 17, 2022","A logging implementation for `log` which is configured via an environment
+variable.
+",https://github.com/alexcrichtonhttps://github.com/env-logger-rshttps://github.com/huonwhttps://github.com/rust-lang-nurseryhttps://github.com/sebasmagrihttps://github.com/sfackler
+arrow_right,filetime0.2.17,,Direct,Apache-2.0 OR MIT,10
+0.2.17,"July 1, 2022","Platform-agnostic accessors of timestamps in File metadata
+",https://github.com/alexcrichton
+arrow_right,flate21.0.24,,Direct,Apache-2.0 OR MIT,10
+1.0.24,"May 28, 2022","DEFLATE compression and decompression exposed as Read/BufRead/Write streams.
+Supports miniz_oxide and multiple zlib implementations. Supports zlib, gzip,
+and raw deflate streams.
+",https://github.com/alexcrichtonhttps://github.com/joshtripletthttps://github.com/rust-lang-owner
+arrow_right,fwdansi1.1.0,,Direct,MIT,6
+1.1.0,"November 17, 2019",Forwards a byte string with ANSI escape code to a termcolor terminal,https://github.com/kennytm
+arrow_right,git20.14.4,,Direct,Apache-2.0 OR MIT,22
+0.14.4,"May 10, 2022","Bindings to libgit2 for interoperating with git repositories. This library is
+both threadsafe and memory safe and allows both reading and writing git
+repositories.
+",https://github.com/alexcrichtonhttps://github.com/ehusshttps://github.com/joshtripletthttps://github.com/rust-lang-owner
+arrow_right,git2_curl0.15.0,,Direct,Apache-2.0 OR MIT,38
+0.15.0,"February 28, 2022","Backend for an HTTP transport in libgit2 powered by libcurl.
+
+Intended to be used with the git2 crate.
+",https://github.com/alexcrichtonhttps://github.com/ehusshttps://github.com/joshtriplett
+arrow_right,glob0.3.0,,Direct,Apache-2.0 OR MIT,0
+0.3.0,"March 7, 2019","Support for matching file paths against Unix shell style patterns.
+",https://github.com/alexcrichtonhttps://github.com/huonwhttps://github.com/rust-lang-nurseryhttps://github.com/rust-lang-owner
+arrow_right,hex0.4.3,,Direct,Apache-2.0 OR MIT,0
+0.4.3,"March 3, 2021",Encoding and decoding data into/from hexadecimal representation.,https://github.com/KokaKiwi
+arrow_right,home0.5.3,,Direct,Apache-2.0 OR MIT,3
+0.5.3,"January 7, 2020",Shared definitions of home directories,https://github.com/alexcrichtonhttps://github.com/brsonhttps://github.com/kinnison
+arrow_right,humantime2.1.0,,Direct,Apache-2.0 OR MIT,0
+2.1.0,"January 13, 2021","    A parser and formatter for std::time::{Duration, SystemTime}
+",https://github.com/tailhook
+arrow_right,ignore0.4.18,,Direct,MIT OR Unlicense,20
+0.4.18,"June 12, 2021","A fast library for efficiently matching ignore files such as `.gitignore`
+against file paths.
+",https://github.com/BurntSushi
+arrow_right,im_rc15.1.0,,Direct,MPL-2.0+,6
+15.1.0,"April 29, 2022",Immutable collection datatypes (the fast but not thread safe version),https://github.com/bodil
+arrow_right,indexmap1.9.1,,Direct,Apache-2.0 OR MIT,2
+1.9.1,"June 21, 2022",A hash table with consistent order and fast iteration.,https://github.com/blusshttps://github.com/cuviper
+arrow_right,itertools0.10.5,,Direct,Apache-2.0 OR MIT,1
+0.10.5,"September 20, 2022","Extra iterator adaptors, iterator methods, free functions, and macros.",https://github.com/blusshttps://github.com/jswrenn
+arrow_right,jobserver0.1.25,,Direct,Apache-2.0 OR MIT,1
+0.1.25,"September 23, 2022","An implementation of the GNU make jobserver for Rust
+",https://github.com/alexcrichton
+arrow_right,lazy_static1.4.0,,Direct,Apache-2.0 OR MIT,0
+1.4.0,"August 26, 2019",A macro for declaring lazily evaluated statics in Rust.,https://github.com/Kimundihttps://github.com/rust-lang-nursery
+arrow_right,lazycell1.3.0,,Direct,Apache-2.0 OR MIT,0
+1.3.0,"August 12, 2020",A library providing a lazily filled Cell struct,https://github.com/indiv0
+arrow_right,libc0.2.134,,Direct,Apache-2.0 OR MIT,0
+0.2.134,"September 29, 2022","Raw FFI bindings to platform libraries like libc.
+",https://github.com/JohnTitorhttps://github.com/alexcrichtonhttps://github.com/gnzlbghttps://github.com/huonwhttps://github.com/joshtripletthttps://github.com/rust-langhttps://github.com/rust-lang-owner
+arrow_right,libgit2_sys0.13.4+1.4.2,,Direct,Apache-2.0 OR MIT,9
+0.13.4+1.4.2,"May 10, 2022",Native bindings to the libgit2 library,https://github.com/alexcrichtonhttps://github.com/ehusshttps://github.com/joshtriplett
+arrow_right,log0.4.17,,Direct,Apache-2.0 OR MIT,1
+0.4.17,"May 2, 2022","A lightweight logging facade for Rust
+",https://github.com/KodrAushttps://github.com/alexcrichtonhttps://github.com/huonwhttps://github.com/rust-lang-nurseryhttps://github.com/rust-lang-ownerhttps://github.com/sfackler
+arrow_right,memchr2.5.0,,Direct,MIT OR Unlicense,0
+2.5.0,"April 30, 2022",Safe interface to memchr.,https://github.com/BurntSushi
+arrow_right,num_cpus1.13.1,,Direct,Apache-2.0 OR MIT,2
+1.13.1,"December 20, 2021",Get the number of CPUs on a machine.,https://github.com/seanmonstar
+arrow_right,opener0.5.0,,Direct,Apache-2.0 OR MIT,7
+0.5.0,"June 12, 2021",Open a file or link using the system default program.,https://github.com/Seeker14491
+arrow_right,openssl0.10.42,,Direct,Apache-2.0,17
+0.10.42,"September 26, 2022",OpenSSL bindings,https://github.com/sfackler
+arrow_right,os_info3.5.1,,Direct,MIT,11
+3.5.1,"September 19, 2022",Detect the operating system type and version.,https://github.com/stanislav-tkach
+arrow_right,pathdiff0.2.1,,Direct,Apache-2.0 OR MIT,0
+0.2.1,"September 27, 2021",Library for diffing paths to obtain relative paths,https://github.com/Manishearth
+arrow_right,percent_encoding2.2.0,,Direct,Apache-2.0 OR MIT,0
+2.2.0,"September 8, 2022",Percent encoding and decoding,https://github.com/SimonSapinhttps://github.com/servo
+arrow_right,pretty_env_logger0.4.0,,Direct,Apache-2.0 OR MIT,17
+0.4.0,"January 29, 2020",a visually pretty env_logger,https://github.com/seanmonstar
+arrow_right,rustc_workspace_hack1.0.0,,Direct,Apache-2.0 OR MIT,0
+1.0.0,"August 2, 2018","Hack for the compiler's own build system
+",https://github.com/alexcrichton
+arrow_right,rustfix0.6.1,,Direct,Apache-2.0 OR MIT,12
+0.6.1,"May 23, 2022",Automatically apply the suggestions made by rustc,https://github.com/killercuphttps://github.com/oli-obkhttps://github.com/rust-lang-nursery
+arrow_right,semver1.0.14,,Direct,Apache-2.0 OR MIT,6
+1.0.14,"September 15, 2022",Parser and evaluator for Cargo's flavor of Semantic Versioning,https://github.com/dtolnay
+arrow_right,serde1.0.145,,Direct,Apache-2.0 OR MIT,5
+1.0.145,"September 22, 2022",A generic serialization/deserialization framework,https://github.com/dtolnayhttps://github.com/serde-rs
+arrow_right,serde_ignored0.1.5,,Direct,Apache-2.0 OR MIT,6
+0.1.5,"August 3, 2022",Find out about keys that are ignored when deserializing data,https://github.com/alexcrichtonhttps://github.com/dtolnay
+arrow_right,serde_json1.0.86,,Direct,Apache-2.0 OR MIT,8
+1.0.86,"October 9, 2022",A JSON serialization file format,https://github.com/dtolnayhttps://github.com/serde-rs
+arrow_right,shell_escape0.1.5,,Direct,Apache-2.0 OR MIT,0
+0.1.5,"June 19, 2020",Escape characters that may have a special meaning in a shell,https://github.com/sfackler
+arrow_right,snapbox0.2.10,,Direct,Apache-2.0 OR MIT,32
+0.2.10,"May 2, 2022",Snapshot testing toolbox,https://github.com/epage
+arrow_right,strip_ansi_escapes0.1.1,,Direct,Apache-2.0 OR MIT,7
+0.1.1,"August 24, 2021",Strip ANSI escape sequences from byte streams.,https://github.com/luser
+arrow_right,tar0.4.38,,Direct,Apache-2.0 OR MIT,11
+0.4.38,"December 14, 2021","A Rust implementation of a TAR file reader and writer. This library does not
+currently handle compression, but it is abstract over all I/O readers and
+writers. Additionally, great lengths are taken to ensure that the entire
+contents are never required to be entirely resident in memory all at once.
+",https://github.com/alexcrichton
+arrow_right,tempfile3.3.0,,Direct,Apache-2.0 OR MIT,10
+3.3.0,"January 8, 2022",A library for managing temporary files and directories.,https://github.com/KodrAushttps://github.com/Stebalien
+arrow_right,termcolor1.1.3,,Direct,MIT OR Unlicense,4
+1.1.3,"March 2, 2022","A simple cross platform library for writing colored text to a terminal.
+",https://github.com/BurntSushi
+arrow_right,toml_edit0.14.4,,Direct,Apache-2.0 OR MIT,16
+0.14.4,"May 9, 2022",Yet another format-preserving TOML parser.,https://github.com/epagehttps://github.com/ordian
+arrow_right,unicode_width0.1.10,,Direct,Apache-2.0 OR MIT,0
+0.1.10,"September 13, 2022","Determine displayed width of `char` and `str` types
+according to Unicode Standard Annex #11 rules.
+",https://github.com/Manishearthhttps://github.com/SimonSapinhttps://github.com/alexcrichtonhttps://github.com/huonwhttps://github.com/kwantamhttps://github.com/sujayakar
+arrow_right,unicode_xid0.2.4,,Direct,Apache-2.0 OR MIT,0
+0.2.4,"September 15, 2022","Determine whether characters have the XID_Start
+or XID_Continue properties according to
+Unicode Standard Annex #31.
+",https://github.com/Manishearthhttps://github.com/SimonSapinhttps://github.com/alexcrichtonhttps://github.com/huonwhttps://github.com/kwantamhttps://github.com/sujayakar
+arrow_right,url2.3.1,,Direct,Apache-2.0 OR MIT,7
+2.3.1,"September 8, 2022","URL library for Rust, based on the WHATWG URL Standard",https://github.com/Hoverbearhttps://github.com/SimonSapinhttps://github.com/seanmonstarhttps://github.com/servo
+arrow_right,walkdir2.3.2,,Direct,MIT OR Unlicense,5
+2.3.2,"March 22, 2021",Recursively walk a directory.,https://github.com/BurntSushi
+arrow_right,winapi0.3.9,,Direct,Apache-2.0 OR MIT,2
+0.3.9,"June 26, 2020",Raw FFI bindings for all of Windows API.,https://github.com/retep998
+arrow_right,adler1.0.2,,Indirect,0BSD OR Apache-2.0 OR MIT,0
+1.0.2,"February 26, 2021",A simple clean-room implementation of the Adler-32 checksum,https://github.com/jonas-schievink
+arrow_right,aho_corasick0.7.19,,Indirect,MIT OR Unlicense,1
+0.7.19,"September 3, 2022",Fast multiple substring searching.,https://github.com/BurntSushi
+arrow_right,arrayvec0.5.2,,Indirect,Apache-2.0 OR MIT,0
+0.5.2,"October 23, 2020","A vector with fixed capacity, backed by an array (it can be stored on the stack too). Implements fixed capacity ArrayVec and ArrayString.",https://github.com/blusshttps://github.com/rust-bus
+arrow_right,autocfg1.1.0,,Indirect,Apache-2.0 OR MIT,0
+1.1.0,"February 7, 2022",Automatic cfg for Rust compiler features,https://github.com/cuviperhttps://github.com/matklad
+arrow_right,bitflags1.3.2,,Indirect,Apache-2.0 OR MIT,0
+1.3.2,"August 16, 2021","A macro to generate structures which behave like bitflags.
+",https://github.com/KodrAushttps://github.com/alexcrichtonhttps://github.com/bitflagshttps://github.com/huonwhttps://github.com/rust-lang-nursery
+arrow_right,bitmaps2.1.0,,Indirect,MPL-2.0+,1
+2.1.0,"March 26, 2020",Fixed size boolean arrays,https://github.com/bodil
+arrow_right,bstr0.2.17,,Indirect,Apache-2.0 OR MIT,3
+0.2.17,"September 20, 2021",A string type that is not required to be valid UTF-8.,https://github.com/BurntSushi
+arrow_right,bytes1.2.1,,Indirect,MIT,0
+1.2.1,"July 30, 2022",Types and traits for working with bytes,https://github.com/carllerchehttps://github.com/tokio-rs
+arrow_right,cc1.0.73,,Indirect,Apache-2.0 OR MIT,2
+1.0.73,"February 16, 2022","A build-time dependency for Cargo build scripts to assist in invoking the native
+C compiler to compile native C code into a static archive to be linked into Rust
+code.
+",https://github.com/rust-langhttps://github.com/rust-lang-owner
+arrow_right,cfg_if1.0.0,,Indirect,Apache-2.0 OR MIT,0
+1.0.0,"October 6, 2020","A macro to ergonomically define an item depending on a large number of #[cfg]
+parameters. Structured like an if-else chain, the first matching branch is the
+item that gets emitted.
+",https://github.com/alexcrichtonhttps://github.com/rust-lang
+arrow_right,clap_lex0.2.4,,Indirect,Apache-2.0 OR MIT,1
+0.2.4,"June 28, 2022","Minimal, flexible command line parser",https://github.com/epage
+arrow_right,combine4.6.6,,Indirect,MIT,2
+4.6.6,"August 9, 2022",Fast parser combinators on arbitrary streams with zero-copy support.,https://github.com/Marwes
+arrow_right,commoncrypto0.2.0,,Indirect,MIT,2
+0.2.0,"January 24, 2017",Idiomatic Rust wrappers for Mac OS X's CommonCrypto library,https://github.com/malept
+arrow_right,commoncrypto_sys0.2.0,,Indirect,MIT,1
+0.2.0,"January 24, 2017",FFI bindings to Mac OS X's CommonCrypto library,https://github.com/malept
+arrow_right,concolor0.0.8,,Indirect,Apache-2.0 OR MIT,8
+0.0.8,"January 11, 2022",Control console coloring across all dependencies,https://github.com/epagehttps://github.com/rust-cli
+arrow_right,concolor_query0.0.5,,Indirect,Apache-2.0 OR MIT,0
+0.0.5,"January 11, 2022",Look up colored console capabilities,https://github.com/epagehttps://github.com/rust-cli
+arrow_right,content_inspector0.2.4,,Indirect,Apache-2.0 OR MIT,1
+0.2.4,"November 4, 2018",Fast inspection of binary buffers to guess/determine the encoding,https://github.com/sharkdp
+arrow_right,core_foundation0.9.3,,Indirect,Apache-2.0 OR MIT,2
+0.9.3,"February 7, 2022",Bindings to Core Foundation for macOS,https://github.com/larsbergstromhttps://github.com/mbrubeckhttps://github.com/metajackhttps://github.com/pcwaltonhttps://github.com/servo
+arrow_right,core_foundation_sys0.8.3,,Indirect,Apache-2.0 OR MIT,0
+0.8.3,"October 12, 2021",Bindings to Core Foundation for macOS,https://github.com/larsbergstromhttps://github.com/servo
+arrow_right,crc32fast1.3.2,,Indirect,Apache-2.0 OR MIT,1
+1.3.2,"February 8, 2022","Fast, SIMD-accelerated CRC32 (IEEE) checksum computation",https://github.com/srijs
+arrow_right,crypto_hash0.3.4,,Indirect,MIT,24
+0.3.4,"August 18, 2019",A wrapper for OS-level cryptographic hash functions,https://github.com/malept
+arrow_right,dunce1.0.3,,Indirect,CC0-1.0 OR MIT-0,0
+1.0.3,"October 6, 2022","Normalize Windows paths to the most compatible format, avoiding UNC where possible",https://github.com/kornelskihttps://github.com/rust-bus
+arrow_right,either1.8.0,,Indirect,Apache-2.0 OR MIT,0
+1.8.0,"August 17, 2022","The enum `Either` with variants `Left` and `Right` is a general purpose sum type with two cases.
+",https://github.com/blusshttps://github.com/cuviper
+arrow_right,env_logger0.7.1,,Indirect,Apache-2.0 OR MIT,16
+0.7.1,"October 17, 2019","A logging implementation for `log` which is configured via an environment
+variable.
+",https://github.com/alexcrichtonhttps://github.com/env-logger-rshttps://github.com/huonwhttps://github.com/rust-lang-nurseryhttps://github.com/sebasmagrihttps://github.com/sfackler
+arrow_right,fastrand1.8.0,,Indirect,Apache-2.0 OR MIT,2
+1.8.0,"July 23, 2022",A simple and fast random number generator,https://github.com/smol-rshttps://github.com/taiki-e
+arrow_right,fnv1.0.7,,Indirect,Apache-2.0 OR MIT,0
+1.0.7,"May 14, 2020",Fowler–Noll–Vo hash function,https://github.com/SimonSapinhttps://github.com/servo
+arrow_right,foreign_types0.3.2,,Indirect,Apache-2.0 OR MIT,1
+0.3.2,"November 28, 2017",A framework for Rust wrappers over C APIs,https://github.com/sfackler
+arrow_right,foreign_types_shared0.1.1,,Indirect,Apache-2.0 OR MIT,0
+0.1.1,"November 28, 2017",An internal crate used by foreign-types,https://github.com/sfackler
+arrow_right,form_urlencoded1.1.0,,Indirect,Apache-2.0 OR MIT,1
+1.1.0,"September 8, 2022","Parser and serializer for the application/x-www-form-urlencoded syntax, as used by HTML forms.",https://github.com/SimonSapinhttps://github.com/servo
+arrow_right,globset0.4.9,,Indirect,MIT OR Unlicense,10
+0.4.9,"June 10, 2022","Cross platform single glob and glob set matching. Glob set matching is the
+process of matching one or more glob patterns against a single candidate path
+simultaneously, and returning all of the globs that matched.
+",https://github.com/BurntSushi
+arrow_right,hashbrown0.12.3,,Indirect,Apache-2.0 OR MIT,0
+0.12.3,"July 17, 2022",A Rust port of Google's SwissTable hash map,https://github.com/Amanieu
+arrow_right,hermit_abi0.1.19,,Indirect,Apache-2.0 OR MIT,1
+0.1.19,"June 24, 2021","hermit-abi is small interface to call functions from the unikernel RustyHermit.
+It is used to build the target `x86_64-unknown-hermit`.
+",https://github.com/mkroeninghttps://github.com/stlankes
+arrow_right,hex0.3.2,,Indirect,Apache-2.0 OR MIT,0
+0.3.2,"April 19, 2018",Encoding and decoding data into/from hexadecimal representation.,https://github.com/KokaKiwi
+arrow_right,humantime1.3.0,,Indirect,Apache-2.0 OR MIT,1
+1.3.0,"September 9, 2019","    A parser and formatter for std::time::{Duration, SystemTime}
+",https://github.com/tailhook
+arrow_right,idna0.3.0,,Indirect,Apache-2.0 OR MIT,4
+0.3.0,"September 8, 2022",IDNA (Internationalizing Domain Names in Applications) and Punycode.,https://github.com/SimonSapinhttps://github.com/servo
+arrow_right,instant0.1.12,,Indirect,BSD-3-Clause,1
+0.1.12,"October 18, 2021",A partial replacement for std::time::Instant that works on WASM too.,https://github.com/sebcrozet
+arrow_right,itoa1.0.4,,Indirect,Apache-2.0 OR MIT,0
+1.0.4,"October 6, 2022",Fast integer primitive to string conversion,https://github.com/dtolnay
+arrow_right,kstring2.0.0,,Indirect,Apache-2.0 OR MIT,1
+2.0.0,"March 29, 2022",Key String: optimized for map keys,https://github.com/epage
+arrow_right,libnghttp2_sys0.1.7+1.45.0,,Indirect,Apache-2.0 OR MIT,3
+0.1.7+1.45.0,"September 20, 2021","FFI bindings for libnghttp2 (nghttp2)
+",https://github.com/alexcrichton
+arrow_right,libssh2_sys0.2.23,,Indirect,Apache-2.0 OR MIT,8
+0.2.23,"October 10, 2021",Native bindings to the libssh2 library,https://github.com/alexcrichtonhttps://github.com/crisidevhttps://github.com/wez
+arrow_right,libz_sys1.1.8,,Indirect,Apache-2.0 OR MIT,5
+1.1.8,"May 28, 2022",Low-level bindings to the system libz library (also known as zlib).,https://github.com/alexcrichtonhttps://github.com/joshtripletthttps://github.com/rust-lang-owner
+arrow_right,miniz_oxide0.5.4,,Indirect,Apache-2.0 OR MIT OR Zlib,1
+0.5.4,"September 4, 2022",DEFLATE compression and decompression library rewritten in Rust based on miniz,https://github.com/Frommihttps://github.com/oyvindln
+arrow_right,miow0.3.7,,Indirect,Apache-2.0 OR MIT,3
+0.3.7,"March 22, 2021","A zero overhead I/O library for Windows, focusing on IOCP and Async I/O
+abstractions.
+",https://github.com/alexcrichtonhttps://github.com/faernhttps://github.com/yoshuawuyts
+arrow_right,normalize_line_endings0.3.0,,Indirect,Apache-2.0,0
+0.3.0,"December 16, 2018","Takes an iterator over chars and returns a new iterator with all line endings (\r, \n, or \r\n) as \n",https://github.com/derekdreery
+arrow_right,once_cell1.15.0,,Indirect,Apache-2.0 OR MIT,0
+1.15.0,"September 20, 2022",Single assignment cells and lazy values.,https://github.com/matkladhttps://github.com/vorner
+arrow_right,openssl_macros0.1.0,,Indirect,Apache-2.0 OR MIT,4
+0.1.0,"May 3, 2022",Internal macros used by the openssl crate.,https://github.com/sfackler
+arrow_right,openssl_probe0.1.5,,Indirect,Apache-2.0 OR MIT,0
+0.1.5,"January 12, 2022","Tool for helping to find SSL certificate locations on the system for OpenSSL
+",https://github.com/alexcrichton
+arrow_right,openssl_sys0.9.76,,Indirect,MIT,6
+0.9.76,"September 26, 2022",FFI bindings to OpenSSL,https://github.com/alexcrichtonhttps://github.com/sfackler
+arrow_right,os_str_bytes6.3.0,,Indirect,Apache-2.0 OR MIT,0
+6.3.0,"August 14, 2022","Convert between byte sequences and platform-native strings
+",https://github.com/dylni
+arrow_right,pkg_config0.3.25,,Indirect,Apache-2.0 OR MIT,0
+0.3.25,"March 31, 2022","A library to run the pkg-config system tool at build time in order to be used in
+Cargo build scripts.
+",https://github.com/alexcrichtonhttps://github.com/joshtripletthttps://github.com/sdroege
+arrow_right,proc_macro21.0.46,,Indirect,Apache-2.0 OR MIT,1
+1.0.46,"September 29, 2022",A substitute implementation of the compiler's `proc_macro` API to decouple token-based libraries from the procedural macro use case.,https://github.com/dtolnay
+arrow_right,quick_error1.2.3,,Indirect,Apache-2.0 OR MIT,0
+1.2.3,"January 2, 2020","    A macro which makes error types pleasant to write.
+",https://github.com/tailhook
+arrow_right,quote1.0.21,,Indirect,Apache-2.0 OR MIT,2
+1.0.21,"August 3, 2022",Quasi-quoting macro quote!(...),https://github.com/dtolnay
+arrow_right,rand_core0.6.4,,Indirect,Apache-2.0 OR MIT,0
+0.6.4,"September 15, 2022","Core random number generator traits and tools for implementation.
+",https://github.com/alexcrichtonhttps://github.com/dhardyhttps://github.com/rust-random
+arrow_right,rand_xoshiro0.6.0,,Indirect,Apache-2.0 OR MIT,1
+0.6.0,"December 18, 2020","Xoshiro, xoroshiro and splitmix64 random number generators",https://github.com/dhardyhttps://github.com/rust-random
+arrow_right,redox_syscall0.2.16,,Indirect,MIT,1
+0.2.16,"July 26, 2022",A Rust library to access raw Redox system calls,https://github.com/4lDO2https://github.com/jackpot51
+arrow_right,regex1.6.0,,Indirect,Apache-2.0 OR MIT,3
+1.6.0,"July 5, 2022","An implementation of regular expressions for Rust. This implementation uses
+finite automata and guarantees linear time matching on all inputs.
+",https://github.com/BurntSushihttps://github.com/alexcrichtonhttps://github.com/rust-langhttps://github.com/rust-lang-nursery
+arrow_right,regex_automata0.1.10,,Indirect,MIT OR Unlicense,0
+0.1.10,"June 1, 2021",Automata construction and matching using regular expressions.,https://github.com/BurntSushi
+arrow_right,regex_syntax0.6.27,,Indirect,Apache-2.0 OR MIT,0
+0.6.27,"July 5, 2022",A regular expression parser.,https://github.com/BurntSushihttps://github.com/alexcrichtonhttps://github.com/rust-langhttps://github.com/rust-lang-nursery
+arrow_right,remove_dir_all0.5.3,,Indirect,Apache-2.0 OR MIT,3
+0.5.3,"June 12, 2020","A safe, reliable implementation of remove_dir_all for Windows",https://github.com/XAMPPRockyhttps://github.com/rbtcollins
+arrow_right,ryu1.0.11,,Indirect,Apache-2.0 OR BSL-1.0,0
+1.0.11,"August 3, 2022",Fast floating point to string conversion,https://github.com/dtolnay
+arrow_right,same_file1.0.6,,Indirect,MIT OR Unlicense,4
+1.0.6,"January 11, 2020","A simple crate for determining whether two file paths point to the same file.
+",https://github.com/BurntSushi
+arrow_right,schannel0.1.20,,Indirect,MIT,7
+0.1.20,"May 18, 2022","Schannel bindings for rust, allowing SSL/TLS (e.g. https) without openssl",https://github.com/sfacklerhttps://github.com/steffengy
+arrow_right,serde_derive1.0.145,,Indirect,Apache-2.0 OR MIT,4
+1.0.145,"September 22, 2022","Macros 1.1 implementation of #[derive(Serialize, Deserialize)]",https://github.com/dtolnayhttps://github.com/serde-rs
+arrow_right,similar2.2.0,,Indirect,Apache-2.0,0
+2.2.0,"August 1, 2022",A diff library for Rust,https://github.com/mitsuhiko
+arrow_right,sized_chunks0.6.5,,Indirect,MPL-2.0+,2
+0.6.5,"April 16, 2021",Efficient sized chunk datatypes,https://github.com/bodil
+arrow_right,snapbox_macros0.2.1,,Indirect,Apache-2.0 OR MIT,0
+0.2.1,"March 8, 2022",Snapshot testing toolbox,https://github.com/epage
+arrow_right,socket20.4.7,,Indirect,Apache-2.0 OR MIT,4
+0.4.7,"August 31, 2022","Utilities for handling networking sockets with a maximal amount of configuration
+possible intended.
+",https://github.com/Thomasdezeeuwhttps://github.com/alexcrichtonhttps://github.com/sfacklerhttps://github.com/tokio-rs
+arrow_right,static_assertions1.1.0,,Indirect,Apache-2.0 OR MIT,0
+1.1.0,"November 3, 2019",Compile-time assertions to ensure that invariants are met.,https://github.com/nvzqz
+arrow_right,strsim0.10.0,,Indirect,MIT,0
+0.10.0,"January 31, 2020","Implementations of string similarity metrics. Includes Hamming, Levenshtein,
+OSA, Damerau-Levenshtein, Jaro, Jaro-Winkler, and Sørensen-Dice.
+",https://github.com/dguo
+arrow_right,syn1.0.102,,Indirect,Apache-2.0 OR MIT,3
+1.0.102,"October 7, 2022",Parser for Rust source code,https://github.com/dtolnay
+arrow_right,textwrap0.15.1,,Indirect,MIT,0
+0.15.1,"September 15, 2022","Library for word wrapping, indenting, and dedenting strings. Has optional support for Unicode and emojis as well as machine hyphenation.",https://github.com/mgeisler
+arrow_right,thread_local1.1.4,,Indirect,Apache-2.0 OR MIT,1
+1.1.4,"January 24, 2022",Per-object thread-local storage,https://github.com/Amanieu
+arrow_right,tinyvec1.6.0,,Indirect,Apache-2.0 OR MIT OR Zlib,1
+1.6.0,"April 25, 2022",`tinyvec` provides 100% safe vec-like data structures.,https://github.com/Lokathorhttps://github.com/rust-bus
+arrow_right,tinyvec_macros0.1.0,,Indirect,Apache-2.0 OR MIT OR Zlib,0
+0.1.0,"August 9, 2020",Some macros for tiny containers,https://github.com/Soveu
+arrow_right,typenum1.15.0,,Indirect,Apache-2.0 OR MIT,0
+1.15.0,"December 26, 2021","Typenum is a Rust library for type-level numbers evaluated at
+    compile time. It currently supports bits, unsigned integers, and signed
+    integers. It also provides a type-level array of type-level numbers, but its
+    implementation is incomplete.",https://github.com/paholg
+arrow_right,unicode_bidi0.3.8,,Indirect,Apache-2.0 OR MIT,0
+0.3.8,"April 26, 2022",Implementation of the Unicode Bidirectional Algorithm,https://github.com/SimonSapinhttps://github.com/behnamhttps://github.com/larsbergstromhttps://github.com/mbrubeckhttps://github.com/metajackhttps://github.com/servo
+arrow_right,unicode_ident1.0.5,,Indirect,Unicode-DFS-2016 AND (Apache-2.0 OR MIT),0
+1.0.5,"October 8, 2022",Determine whether characters have the XID_Start or XID_Continue properties according to Unicode Standard Annex #31,https://github.com/dtolnay
+arrow_right,unicode_normalization0.1.22,,Indirect,Apache-2.0 OR MIT,2
+0.1.22,"September 16, 2022","This crate provides functions for normalization of
+Unicode strings, including Canonical and Compatible
+Decomposition and Recomposition, as described in
+Unicode Standard Annex #15.
+",https://github.com/Manishearthhttps://github.com/SimonSapinhttps://github.com/alexcrichtonhttps://github.com/huonwhttps://github.com/kwantamhttps://github.com/sujayakar
+arrow_right,utf8parse0.2.0,,Indirect,Apache-2.0 OR MIT,0
+0.2.0,"January 12, 2020",Table-driven UTF-8 parser,https://github.com/alacrittyhttps://github.com/chrisduerrhttps://github.com/jwilm
+arrow_right,vcpkg0.2.15,,Indirect,Apache-2.0 OR MIT,0
+0.2.15,"June 19, 2021","A library to find native dependencies in a vcpkg tree at build
+time in order to be used in Cargo build scripts.
+",https://github.com/kornelskihttps://github.com/mcgoohttps://github.com/pkgwhttps://github.com/rust-bushttps://github.com/waych
+arrow_right,version_check0.9.4,,Indirect,Apache-2.0 OR MIT,0
+0.9.4,"December 29, 2021",Tiny crate to check the version of the installed/running rustc.,https://github.com/SergioBenitez
+arrow_right,vte0.10.1,,Indirect,Apache-2.0 OR MIT,6
+0.10.1,"April 17, 2021",Parser for implementing terminal emulators,https://github.com/alacrittyhttps://github.com/chrisduerrhttps://github.com/jwilm
+arrow_right,vte_generate_state_changes0.1.1,,Indirect,Apache-2.0 OR MIT,3
+0.1.1,"January 12, 2020",Proc macro for generating VTE state changes,https://github.com/alacrittyhttps://github.com/chrisduerr
+arrow_right,winapi_i686_pc_windows_gnu0.4.0,,Indirect,Apache-2.0 OR MIT,0
+0.4.0,"January 18, 2018","Import libraries for the i686-pc-windows-gnu target. Please don't use this crate directly, depend on winapi instead.",https://github.com/retep998
+arrow_right,winapi_util0.1.5,,Indirect,MIT OR Unlicense,3
+0.1.5,"April 20, 2020",A dumping ground for high level safe wrappers over winapi.,https://github.com/BurntSushi
+arrow_right,winapi_x86_64_pc_windows_gnu0.4.0,,Indirect,Apache-2.0 OR MIT,0
+0.4.0,"January 18, 2018","Import libraries for the x86_64-pc-windows-gnu target. Please don't use this crate directly, depend on winapi instead.",https://github.com/retep998
+arrow_right,windows_aarch64_msvc0.36.1,,Indirect,Apache-2.0 OR MIT,0
+0.36.1,"April 27, 2022",Code gen support for the windows crate,https://github.com/kennykerrhttps://github.com/yoshuawuyts
+arrow_right,windows_i686_gnu0.36.1,,Indirect,Apache-2.0 OR MIT,0
+0.36.1,"April 27, 2022",Code gen support for the windows crate,https://github.com/kennykerrhttps://github.com/yoshuawuyts
+arrow_right,windows_i686_msvc0.36.1,,Indirect,Apache-2.0 OR MIT,0
+0.36.1,"April 27, 2022",Code gen support for the windows crate,https://github.com/kennykerrhttps://github.com/yoshuawuyts
+arrow_right,windows_sys0.36.1,,Indirect,Apache-2.0 OR MIT,5
+0.36.1,"April 27, 2022",Rust for Windows,https://github.com/kennykerr
+arrow_right,windows_x86_64_gnu0.36.1,,Indirect,Apache-2.0 OR MIT,0
+0.36.1,"April 27, 2022",Code gen support for the windows crate,https://github.com/kennykerrhttps://github.com/yoshuawuyts
+arrow_right,windows_x86_64_msvc0.36.1,,Indirect,Apache-2.0 OR MIT,0
+0.36.1,"April 27, 2022",Code gen support for the windows crate,https://github.com/kennykerrhttps://github.com/yoshuawuyts
+arrow_right,yansi0.5.1,,Indirect,Apache-2.0 OR MIT,0
+0.5.1,"March 23, 2022",A dead simple ANSI terminal color painting library.,https://github.com/SergioBenitez

@@ -89,6 +89,7 @@ RUN pip3 install tabulate
 RUN pip3 install ptitprince
 RUN pip3 install matplotlib-venn
 RUN pip3 install albumentations
+RUN pip3 install albumentations[imgaug]
 
 RUN pip3 install texthero
 RUN python3 -m spacy download en
@@ -101,8 +102,10 @@ RUN pip3 install tensorflow-gpu
 
 # RUN pip3 install torch==1.10.2+cu113 torchvision==0.11.3+cu113 torchaudio==0.10.2+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
 RUN pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
-RUN pip3 install transformers
+RUN pip3 install sentencepiece
+RUN pip3 install transformers==4.21.2
 RUN pip3 install timm
+RUN pip3 install segmentation-models-pytorch==0.2.0
 
 RUN pip3 install ttach
 RUN pip3 install grad-cam ttach
@@ -114,6 +117,11 @@ RUN pip3 install colorednoise
 RUN pip3 install catboost
 
 RUN pip3 install cupy-cuda113
+
+RUN pip3 install tokenizers==0.12.1
+RUN pip3 install tez
+RUN pip3 install scrapy==1.6.0
+
 # ワークスペースを元に戻す
 WORKDIR /
 
