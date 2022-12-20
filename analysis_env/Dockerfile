@@ -42,10 +42,10 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 RUN add-apt-repository ppa:deadsnakes/ppa
-RUN apt-get -y install python3.9 \
+RUN apt-get -y install python3.10 \
     sudo wget vim cmake
 # libglib2.0-0 libsm6 libxrender1 libxext6はopencvの関連パッケージ
-# # これは重いのでbuild後にインストールするのが良いかも
+# これは重いのでbuild後にインストールするのが良いかも
 RUN apt-get update -y && apt-get install -y --no-install-recommends build-essential gcc libsndfile1
 
 # # ユーザーの追加
@@ -73,7 +73,7 @@ RUN pip3 install statsmodels
 RUN pip3 install scikit-learn scikit-image
 # RUN pip3 install jupyter jupyter lab
 RUN pip3 install jupyter==1.0.0
-RUN pip3 install jupyterlab==2.1.5
+RUN pip3 install jupyterlab==3.5.2
 
 RUN pip3 install lightgbm
 RUN pip3 install xgboost==1.6.0
@@ -103,7 +103,7 @@ RUN pip3 install tensorflow-gpu
 # RUN pip3 install torch==1.10.2+cu113 torchvision==0.11.3+cu113 torchaudio==0.10.2+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
 RUN pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
 RUN pip3 install sentencepiece
-RUN pip3 install transformers==4.21.2
+RUN pip3 install transformers==4.24.0
 RUN pip3 install timm
 RUN pip3 install segmentation-models-pytorch==0.2.0
 
