@@ -94,7 +94,6 @@ RUN pip3 install tqdm \
     albumentations[imgaug] \
     texthero \
     datasets \
-    tensorflow-gpu \
     torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116 \
     sentencepiece \
     transformers==4.24.0 \
@@ -106,7 +105,6 @@ RUN pip3 install tqdm \
     librosa==0.9.1 \
     colorednoise \
     catboost \
-    cupy-cuda113 \
     tokenizers==0.12.1 \
     tez \
     scrapy==1.6.0 \
