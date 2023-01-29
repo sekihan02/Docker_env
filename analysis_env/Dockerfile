@@ -1,7 +1,8 @@
 # https://catalog.ngc.nvidia.com/orgs/nvidia/containers/cuda
 # https://gitlab.com/nvidia/container-images/cuda/blob/master/dist/11.6.0/ubuntu2004/base/Dockerfile
 FROM nvidia/cuda:11.6.0-base-ubuntu20.04
-# FROM nvidia/cuda:11.5.0-base-ubuntu20.04
+# cudnn関連のファイルを呼ぶため(cupyでlibcublas.so.11を呼ぶため)
+# FROM nvidia/cuda:11.6.0-devel-ubuntu20.04
 
 # FROM ubuntu:latest
 # FROM ubuntu:21.04
@@ -12,6 +13,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install -y \
     bash \
+    sudo wget vim cmake \
     coreutils \
     grep \
     iproute2 \
@@ -21,7 +23,6 @@ RUN apt-get update && apt-get install -y \
     bind9-dnsutils \
     dnsmasq-base \
     netcat-openbsd \
-    wget \
     iptables \
     procps \
     isc-dhcp-client \
@@ -36,17 +37,21 @@ RUN apt-get update && apt-get install -y \
     libxrender1 \
     libxext6 \
     ffmpeg \
+    python3.7 \
     python3 python3-pip \
-    sudo \
+    python3-dev \
+    python3-pip \
+    python3-wheel \
+    python3-setuptools \
     software-properties-common \
     && rm -rf /var/lib/apt/lists/*
 
-RUN add-apt-repository ppa:deadsnakes/ppa
-RUN apt-get -y install python3.10 \
-    sudo wget vim cmake
 # libglib2.0-0 libsm6 libxrender1 libxext6はopencvの関連パッケージ
 # これは重いのでbuild後にインストールするのが良いかも
 RUN apt-get update -y && apt-get install -y --no-install-recommends build-essential gcc libsndfile1
+
+RUN add-apt-repository ppa:deadsnakes/ppa
+
 
 # # ユーザーの追加
 # RUN useradd -m user
@@ -64,63 +69,51 @@ RUN mkdir $HOME/app
 # ワークスペースをインストールフォルダに変更
 WORKDIR $HOME/app
 
-RUN pip3 install tqdm 
-RUN pip3 install matplotlib
-RUN pip3 install seaborn
-RUN pip3 install japanize-matplotlib
-RUN pip3 install scipy==1.5.4
-RUN pip3 install statsmodels
-RUN pip3 install scikit-learn scikit-image
-# RUN pip3 install jupyter jupyter lab
-RUN pip3 install jupyter==1.0.0
-RUN pip3 install jupyterlab==3.5.2
+RUN pip3 install tqdm \
+    matplotlib \
+    seaborn \
+    japanize-matplotlib \
+    scipy==1.5.4 \
+    statsmodels \
+    scikit-learn scikit-image \
+    jupyter==1.0.0 \
+    jupyterlab==3.5.2 \
+    lightgbm \
+    xgboost==1.6.0 \
+    pip --upgrade \
+    opencv-python \
+    opencv-contrib-python \
+    ffmpeg-python \
+    pyvis \
+    ipyplot \
+    torchsummary \
+    tabulate \
+    ptitprince \
+    matplotlib-venn \
+    albumentations \
+    albumentations[imgaug] \
+    texthero \
+    datasets \
+    tensorflow-gpu \
+    torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116 \
+    sentencepiece \
+    transformers==4.24.0 \
+    timm \
+    segmentation-models-pytorch==0.2.0 \
+    grad-cam ttach \
+    lightly \
+    pyro-ppl==1.7.0 \
+    librosa==0.9.1 \
+    colorednoise \
+    catboost \
+    cupy-cuda113 \
+    tokenizers==0.12.1 \
+    tez \
+    scrapy==1.6.0 \
+    imblearn
 
-RUN pip3 install lightgbm
-RUN pip3 install xgboost==1.6.0
-RUN pip3 install pip --upgrade
-RUN pip3 install opencv-python
-RUN pip3 install opencv-contrib-python
-RUN pip3 install ffmpeg-python
-RUN pip3 install pyvis
-
-RUN pip3 install ipyplot
-RUN pip3 install torchsummary
-RUN pip3 install tabulate
-RUN pip3 install ptitprince
-RUN pip3 install matplotlib-venn
-RUN pip3 install albumentations
-RUN pip3 install albumentations[imgaug]
-
-RUN pip3 install texthero
-RUN python3 -m spacy download en
+RUN python3 -m spacy download en 
 RUN python3 -m spacy download en_core_web_lg
-# 文字オブジェクトのインスタンス化
-RUN pip3 install datasets
-# RUN pip3 install tensorflow==2.8.0
-# RUN pip3 install tensorflow-gpu==1.15
-RUN pip3 install tensorflow-gpu
-
-# RUN pip3 install torch==1.10.2+cu113 torchvision==0.11.3+cu113 torchaudio==0.10.2+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
-RUN pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
-RUN pip3 install sentencepiece
-RUN pip3 install transformers==4.24.0
-RUN pip3 install timm
-RUN pip3 install segmentation-models-pytorch==0.2.0
-
-RUN pip3 install ttach
-RUN pip3 install grad-cam ttach
-RUN pip3 install lightly
-RUN pip3 install pyro-ppl==1.7.0
-RUN pip3 install librosa==0.9.1
-
-RUN pip3 install colorednoise
-RUN pip3 install catboost
-
-RUN pip3 install cupy-cuda113
-
-RUN pip3 install tokenizers==0.12.1
-RUN pip3 install tez
-RUN pip3 install scrapy==1.6.0
 
 # ワークスペースを元に戻す
 WORKDIR /
