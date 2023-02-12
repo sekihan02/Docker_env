@@ -1,5 +1,6 @@
 # https://catalog.ngc.nvidia.com/orgs/nvidia/containers/cuda
 # https://gitlab.com/nvidia/container-images/cuda/blob/master/dist/11.6.0/ubuntu2004/base/Dockerfile
+
 FROM nvidia/cuda:11.6.0-base-ubuntu20.04
 
 # cudnn関連のファイルを呼ぶため(cupyでlibcublas.so.11を呼ぶため)
@@ -110,7 +111,7 @@ RUN pip3 install tqdm \
     tez \
     scrapy==1.6.0 \
     imblearn \
-    tensorflow-gpu \
+    tensorflow-gpu==2.9.1 \
     faiss-gpu
 
 RUN python3 -m spacy download en 
