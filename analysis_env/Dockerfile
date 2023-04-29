@@ -1,8 +1,12 @@
 # https://catalog.ngc.nvidia.com/orgs/nvidia/containers/cuda
 # https://gitlab.com/nvidia/container-images/cuda/blob/master/dist/11.6.0/ubuntu2004/base/Dockerfile
 
+<<<<<<< HEAD
 # FROM nvidia/cuda:11.6.0-base-ubuntu20.04
 FROM nvidia/cuda:11.7.0-base-ubuntu22.04
+=======
+FROM nvidia/cuda:11.6.0-base-ubuntu20.04
+>>>>>>> 8442b6139c827eee44f227b366168d08c68473c3
 
 # cudnn関連のファイルを呼ぶため(cupyでlibcublas.so.11を呼ぶため)
 # FROM nvidia/cuda:11.6.0-devel-ubuntu20.04
@@ -39,10 +43,15 @@ RUN apt-get update && apt-get install -y \
     libsm6 \
     libxrender1 \
     libxext6 \
+    <<<<<<< HEAD
     ffmpeg 
 
 RUN apt-get update && apt-get install -y \
     python3.9 \
+=======
+    ffmpeg \
+    python3.7 \
+>>>>>>> 8442b6139c827eee44f227b366168d08c68473c3
     python3 python3-pip \
     python3-dev \
     python3-pip \
