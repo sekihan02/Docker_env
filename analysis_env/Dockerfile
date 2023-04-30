@@ -100,6 +100,8 @@ RUN mkdir /work
 
 USER ${USERNAME}
 
+EXPOSE 1024
+
 # runした時にjupyter labをlocalhostで起動し、root、パスなし
 # アクセスはブラウザでlocalhost:8888
 CMD ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root", "--LabApp.token=''"]
