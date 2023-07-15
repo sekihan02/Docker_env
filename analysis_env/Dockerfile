@@ -1,8 +1,6 @@
 # https://catalog.ngc.nvidia.com/orgs/nvidia/containers/cuda
 # https://gitlab.com/nvidia/container-images/cuda/blob/master/dist/11.6.0/ubuntu2004/base/Dockerfile
-
-# FROM nvidia/cuda:11.6.0-base-ubuntu20.04
-FROM nvidia/cuda:11.7.0-base-ubuntu22.04
+FROM nvidia/cuda:11.8.0-base-ubuntu22.04
 
 # cudnn関連のファイルを呼ぶため(cupyでlibcublas.so.11を呼ぶため)
 # FROM nvidia/cuda:11.6.0-devel-ubuntu20.04
@@ -73,6 +71,8 @@ WORKDIR $HOME/app
 
 COPY requirements.txt .
 RUN pip3 install --upgrade pip
+RUN pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
 RUN pip3 install --no-cache-dir -r requirements.txt
 
 RUN python3 -m spacy download en 
